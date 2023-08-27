@@ -1,0 +1,236 @@
+    .colored-border {
+        border: 1px solid #75c2f6;
+    }
+    
+    .btn-outline-info {
+        font-size: 13px;
+        position: absolute;
+        top: 30px;
+        left: 40px;
+        color: #279eff;
+        border: 1px solid #279eff;
+        border-radius: 50px;
+        cursor: pointer;
+        background-color: #fcfeff;
+    }
+    
+    .text-brand {
+        position: absolute;
+        margin-top: 20px;
+        color: #279eff;
+        font-size: 200%;
+        font-weight: bold;
+    }
+    
+    .search {
+        width: 300px;
+        top: 22px;
+        left: 640px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+    
+    .search input {
+        padding: 1px;
+        font-size: 15px;
+        float: left;
+        width: 60%;
+        background: #fcfeff;
+        outline: none;
+        border: 1px solid #279eff;
+        border-right: 100px;
+    }
+    
+    .search button {
+        float: left;
+        width: 10%;
+        padding: 1px;
+        border-left: none;
+        cursor: pointer;
+        font-size: 15px;
+        background-color: #279eff;
+        border: 1px solid #279eff;
+        border-right: 5px;
+    }
+    
+    .search button:hover {
+        background: #279eff;
+    }
+    
+    .logo-atasan {
+        position: absolute;
+        top: 30px;
+        left: 123px;
+        color: #0e2954;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #fcfeff;
+    }
+    
+    .navbar {
+        right: 130px;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 0;
+        width: 140%;
+        position: fixed;
+        top: 100px;
+        z-index: 1;
+    }
+    
+    .navbar li {
+        margin: 0 1px;
+    }
+    
+    .navbar li a {
+        text-decoration: none;
+        color: #0e2954;
+        font-weight: bold;
+        font-size: 18px;
+        transition: color 0.3s;
+    }
+    
+    .navbar li a:hover {
+        color: #75c2f6;
+    }
+    
+    .custom-hr {
+        border: 1px solid #b0daff;
+        width: 99%;
+        position: absolute;
+        top: 170px;
+        opacity: 80%;
+    }
+    
+    .post-unggulan {
+        color: #0e2954;
+        position: absolute;
+        margin-top: 220px;
+        left: 50px;
+    }
+    
+    .custom-hr2 {
+        border: 1px solid #b0daff;
+        width: 15%;
+        position: absolute;
+        top: 250px;
+        left: 50px;
+        opacity: 80%;
+    }
+    
+    .container-fluid {
+        margin-top: 230px;
+    }
+    
+    .c1 {
+        color: #0E2954;
+    }
+    
+    .c2 {
+        color: #1450A3;
+    }
+    
+    .c3 {
+        color: #279eff;
+    }
+    
+    .bg-c3 {
+        background-color: #279eff;
+    }
+    
+    .c4 {
+        color: #75c2f6;
+    }
+    
+    .bg-c4 {
+        background-color: #75c2f6;
+    }
+    
+    .bc-4 {
+        border-color: #75c2f6;
+    }
+    
+    .c5 {
+        color: #b0daff;
+    }
+    
+    .c6 {
+        color: #fcfeff;
+    }
+    
+    .bg-c6 {
+        background-color: #fcfeff;
+    }
+    
+    .cr-img {
+        height: 100px;
+        object-fit: cover;
+    }
+    
+    .cr-img-1 {
+        height: 250px;
+        object-fit: cover;
+    }
+    
+    .card {
+        border-color: #75c2f6;
+        border-radius: 0;
+    }
+    
+    .card-footer {
+        background-color: #fcfeff;
+        border: none;
+    }
+    
+    .rounded-circle {
+        border: 2px solid #0E2954;
+    }
+    
+    .t1 {
+        font-size: 13px;
+    }
+    
+    .pp1 {
+        margin-left: 5px;
+        color: #0E2954;
+    }
+    
+    .pp {
+        margin-left: 28px;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .pp1 {
+            margin-left: 0px;
+        }
+        .pp {
+            margin-left: 0px;
+        }
+    }
+    
+    .card-footer {
+        background-color: #fcfeff;
+        border: none;
+    }
+    
+    .border-tutor {
+        color: 1px solid #279eff;
+    }
+    
+    .custom-hr3 {
+        border: 1px solid #b0daff;
+        width: 12%;
+        position: absolute;
+        top: 162%;
+        left: 54px;
+        opacity: 80%;
+    }
